@@ -1,0 +1,12 @@
+[package]
+name = "wplug"
+version = "0.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "WPlug - WASM Plugin System for Rust"
+
+[[bin]]
+name = "wplug"
+path = "./bin/wplug.rs"
+
+[dependencies]
